@@ -4,7 +4,8 @@
     "license": "LGPL",
     "type": "library",
     "require": {
-        "yiisoft/yii2": "^2.0"
+        "yiisoft/yii2": "^2.0",
+        "nolbertovilchez/yii2-asset": "^1.0"
     },
     "authors": [
         {
@@ -16,9 +17,13 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "web/static/third_party"
+        },
+        "installer-paths": {
+            "web/static/third_party/{$name}": ["twbs/bootstrap"]
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "nolbertovilchez\\yii2\\theme\\espire\\": ""
