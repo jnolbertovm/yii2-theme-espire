@@ -22,8 +22,7 @@
             "web/static/third_party/{$name}": ["twbs/bootstrap"]
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "nolbertovilchez\\yii2\\theme\\espire\\": ""
