@@ -1,0 +1,29 @@
+{
+  "name": "yii2-theme-espire",
+  "version": "1.0.0",
+  "description": "Template Espire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/nolbertovilchez/yii2-theme-espire.git",
+  "author": "Jóse Nolberto Vilchez Moreno <jnolbertovm@gmail.com>",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/nolbertovilchez/yii2-theme-espire/issues"
+  },
+  "homepage": "https://github.com/nolbertovilchez/yii2-theme-espire#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

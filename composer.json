@@ -1,0 +1,27 @@
+{
+    "name": "nolbertovilchez/yii2-theme-espire",
+    "description": "Template Espire",
+    "license": "LGPL",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Jóse Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "web/static/third_party"
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "nolbertovilchez\\yii2\\theme\\espire\\": ""
+        }
+    }
+}
