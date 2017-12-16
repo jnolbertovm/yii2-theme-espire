@@ -15,12 +15,11 @@ class EspireLoginAsset extends \yii\web\AssetBundle {
     ];
     
     public $js = [
-        'js/app.min.js'
+        'js/app-login.min.js'
     ];
     
     public $depends    = [
         'nolbertovilchez\yii2\asset\Jquery',
-        'nolbertovilchez\yii2\asset\Popper',
         'nolbertovilchez\yii2\asset\Bootstrap4',
         'nolbertovilchez\yii2\asset\Pace'
     ];
