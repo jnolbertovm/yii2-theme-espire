@@ -20,7 +20,6 @@ class EspireAsset extends \yii\web\AssetBundle {
     
     public $depends    = [
         'nolbertovilchez\yii2\asset\Jquery',
-        'nolbertovilchez\yii2\asset\Popper',
         'nolbertovilchez\yii2\asset\Bootstrap4',
         'nolbertovilchez\yii2\asset\Pace',
         'nolbertovilchez\yii2\asset\PerfectScrollbar',
